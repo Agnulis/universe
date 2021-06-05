@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body{
+    background-color: slategray;
+}
+
+div img{
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0px 0px 14px 0px #401A12;
+    text-align: left;
+}
+
+a{
+    background-color: rosybrown;
+    text-decoration: none;
+    color: seashell;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.item{
+    font-size: small;
+    flex-basis: 200px;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    background-color: wheat;
+    flex-grow: 1;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
